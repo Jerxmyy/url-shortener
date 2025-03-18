@@ -5,7 +5,7 @@ namespace App\DataFixtures;
 use App\Entity\ShortUrl;
 use Doctrine\Persistence\ObjectManager;
 
-class ShortUrlFixtures extends BaseFixture
+class ShortUrlFixtures extends BaseFixtures
 {
     public function load(ObjectManager $manager): void
     {

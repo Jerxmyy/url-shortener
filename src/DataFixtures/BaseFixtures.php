@@ -5,7 +5,7 @@ namespace App\DataFixtures;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Faker;
 
-abstract class BaseFixture extends Fixture {
+abstract class BaseFixtures extends Fixture {
     private const SEED = "BIzZQ9ryZCuRbLMRk2fTAQ==";
 
     protected Faker\Generator $faker;
